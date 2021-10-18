@@ -27,7 +27,7 @@ eor r3, r5, r3 //r3 = r5 ^ r6
 lsr r5, r2, #6 //r5 = r2 >> 6
 lsr r6, r2, #7 //r6 = r2 >> 7
 
-ETHAN NAGELVOORT, 821234668 HOMEWORK 9
+
 eor r3, r3, r5 //r3 = r3 ^ r5
 eor r3, r3, r6 //r3 = r3 ^ r6
 lsr r5, r2, #1 //r5 = r2 >> 1
