@@ -3,8 +3,7 @@
 // declare any global variables here
 .text
 sumofEvenNumbers:
-// Do not modify and wory abou the next three lines. Include them in every function. This will be
-clear as we learn more
+// Do not modify and wory abou the next three lines. Include them in every function. This will be clear as we learn more
 mov r12,r13 // save stack pointer into register r12
 sub sp,#32 // reserve 32 bytes of space for local variables
 push {r3} // push link register onto stack -- make sure you pop it out before you return
