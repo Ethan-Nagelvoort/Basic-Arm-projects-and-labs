@@ -21,13 +21,13 @@ b while //loop back to while branch
 zero: //inside zero branch
 mov r2, #0 //r2 = 0
 
-ETHAN NAGELVOORT, 821234668 HOMEWORK 7
+
 mov r3, #0 //r3 = 0
 b For //branch to For branch
 For: //inside For branch
 cmp r3, r1
-bge end //branch to end if r3&gt;=r1
-blt inside //branch to inside if r3&lt;r1
+bge end //branch to end if r3>=r1
+blt inside //branch to inside if r3<r1
 inside: //inside inside branch
 ldrb r4, [r0,r3] //load register r4 with whatever is in mem location r0+r3
 add r3, r3, #1 //r3 = r3 + 1
